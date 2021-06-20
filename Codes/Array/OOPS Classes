@@ -1,0 +1,24 @@
+#include<iostream>
+using namespace std;
+
+class car{
+
+private:
+	int model;
+	char color;
+
+public:
+	void funtion(){
+		model = 2008;
+	}
+	char function2(){
+		color = "White";
+		return color;
+
+	}
+
+};
+
+int main (){
+	car obj1, obj2;
+}
